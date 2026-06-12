@@ -1,0 +1,8 @@
+{
+  "name": "SPFCAS - Sistema de Processos Fundação CAS",
+  "description": "Sistema de Gestão de Processos e Documentos Arquivísticos Eletrônicos da Fundação CAS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

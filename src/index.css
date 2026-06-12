@@ -1,0 +1,270 @@
+@import "tailwindcss";
+
+.app-shell {
+  min-height: 100vh;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.app-dark {
+  color-scheme: dark;
+  background: #030924 !important;
+  color: #e5e7eb !important;
+}
+
+.app-dark main,
+.app-dark aside,
+.app-dark section,
+.app-dark article,
+.app-dark form,
+.app-dark table,
+.app-dark tbody,
+.app-dark .bg-white,
+.app-dark .bg-slate-50,
+.app-dark .bg-gray-50,
+.app-dark .bg-\[\#F4F7FA\],
+.app-dark [style*="background-color: #FFFFFF"],
+.app-dark [style*="background-color: rgb(255, 255, 255)"],
+.app-dark [style*="backgroundColor: #FFFFFF"],
+.app-dark [style*="background-color: #F4F7FA"],
+.app-dark [style*="background-color: rgb(244, 247, 250)"] {
+  background-color: #0f172a !important;
+  color: #e5e7eb !important;
+  border-color: #334155 !important;
+}
+
+.app-dark .bg-slate-100,
+.app-dark .bg-gray-100,
+.app-dark .bg-blue-50,
+.app-dark .bg-blue-50\/50,
+.app-dark .bg-sky-50,
+.app-dark .bg-sky-50\/50,
+.app-dark .bg-emerald-50,
+.app-dark .bg-red-50,
+.app-dark .bg-yellow-50,
+.app-dark .bg-\[\#EDF4FF\],
+.app-dark [style*="background-color: #EDF4FF"],
+.app-dark [style*="background-color: rgb(237, 244, 255)"],
+.app-dark [style*="background-color: #F8FAFC"] {
+  background-color: #111827 !important;
+  color: #e5e7eb !important;
+  border-color: #334155 !important;
+}
+
+.app-dark .bg-blue-50\/50,
+.app-dark .bg-sky-50\/50,
+.app-dark .bg-\[\#EDF4FF\],
+.app-dark [style*="background-color: #EDF4FF"],
+.app-dark [style*="background-color: rgb(237, 244, 255)"] {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #38bdf8 !important;
+}
+
+.app-dark input,
+.app-dark select,
+.app-dark textarea {
+  background-color: #020617 !important;
+  color: #e5e7eb !important;
+  border-color: #475569 !important;
+}
+
+.app-dark option {
+  background-color: #020617 !important;
+  color: #e5e7eb !important;
+}
+
+.app-dark .text-\[\#00264D\],
+.app-dark .text-\[\#004A99\],
+.app-dark .text-slate-800,
+.app-dark .text-slate-700,
+.app-dark .text-sky-800,
+.app-dark .text-sky-700,
+.app-dark .text-gray-800,
+.app-dark .text-gray-700,
+.app-dark .text-neutral-800,
+.app-dark [style*="color: #00264D"],
+.app-dark [style*="color: #004A99"],
+.app-dark [style*="color: rgb(0, 38, 77)"],
+.app-dark [style*="color: rgb(0, 74, 153)"] {
+  color: #e5e7eb !important;
+}
+
+.app-dark .text-\[\#64748B\],
+.app-dark .text-slate-500,
+.app-dark .text-slate-400,
+.app-dark .text-gray-500,
+.app-dark .text-gray-400 {
+  color: #94a3b8 !important;
+}
+
+.app-dark .border,
+.app-dark .border-b,
+.app-dark .border-t,
+.app-dark .border-l,
+.app-dark .border-r,
+.app-dark .border-slate-200,
+.app-dark .border-gray-200,
+.app-dark .border-\[\#D9E2EC\],
+.app-dark [style*="border-color: #D9E2EC"],
+.app-dark [style*="border: 1px solid #D9E2EC"] {
+  border-color: #334155 !important;
+}
+
+.app-dark .shadow,
+.app-dark .shadow-sm,
+.app-dark .shadow-md,
+.app-dark .shadow-lg,
+.app-dark .shadow-xl,
+.app-dark .shadow-2xl {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45) !important;
+}
+
+.app-dark .prose,
+.app-dark .prose * {
+  color: #e5e7eb !important;
+}
+
+.app-dark .process-tree-panel {
+  background-color: #0f172a !important;
+}
+
+.app-dark .process-tree-selected,
+.app-dark .process-context-pill {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border-color: #38bdf8 !important;
+}
+
+.app-dark .process-tree-selected *,
+.app-dark .process-context-pill * {
+  color: #f8fafc !important;
+}
+
+.app-dark .process-tree-idle {
+  color: #cbd5e1 !important;
+}
+
+.app-dark .process-tree-idle:hover {
+  background-color: #1e293b !important;
+}
+
+.app-dark .process-tree-badge {
+  background-color: #020617 !important;
+  color: #e5e7eb !important;
+  border-color: #475569 !important;
+}
+
+.app-dark .process-tab-active {
+  background-color: #1d4ed8 !important;
+  border-color: #38bdf8 !important;
+  color: #ffffff !important;
+}
+
+.app-dark .process-tab-idle {
+  background-color: #020617 !important;
+  border-color: #334155 !important;
+  color: #cbd5e1 !important;
+}
+
+.app-dark .process-tab-idle:hover {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+}
+
+.app-dark .official-process-sheet,
+.app-dark .official-process-sheet.bg-white {
+  background-color: #ffffff !important;
+  color: #111827 !important;
+  border-color: #cbd5e1 !important;
+}
+
+.app-dark .official-process-sheet .prose,
+.app-dark .official-process-sheet .prose *,
+.app-dark .official-process-sheet .quill-editor-body,
+.app-dark .official-process-sheet .quill-editor-body * {
+  color: #111827 !important;
+}
+
+.app-dark .official-process-sheet .bg-white {
+  background-color: #ffffff !important;
+}
+
+.app-dark .official-process-sheet .bg-slate-50,
+.app-dark .official-process-sheet .bg-gray-50,
+.app-dark .official-process-sheet .bg-\[\#F4F7FA\] {
+  background-color: #f8fafc !important;
+}
+
+.app-dark .official-process-sheet .bg-sky-50,
+.app-dark .official-process-sheet .bg-sky-50\/50,
+.app-dark .official-process-sheet .bg-\[\#EDF4FF\] {
+  background-color: #eff6ff !important;
+}
+
+.app-dark .official-process-sheet .bg-amber-50 {
+  background-color: #fffbeb !important;
+}
+
+.app-dark .official-process-sheet .bg-emerald-50 {
+  background-color: #ecfdf5 !important;
+}
+
+.app-dark .official-process-sheet .text-black,
+.app-dark .official-process-sheet .text-slate-900,
+.app-dark .official-process-sheet .text-neutral-900 {
+  color: #0f172a !important;
+}
+
+.app-dark .official-process-sheet .text-\[\#00264D\] {
+  color: #00264d !important;
+}
+
+.app-dark .official-process-sheet .text-\[\#004A99\],
+.app-dark .official-process-sheet .text-sky-800 {
+  color: #004a99 !important;
+}
+
+.app-dark .official-process-sheet .text-slate-800,
+.app-dark .official-process-sheet .text-gray-800 {
+  color: #1f2937 !important;
+}
+
+.app-dark .official-process-sheet .text-slate-700,
+.app-dark .official-process-sheet .text-gray-700 {
+  color: #334155 !important;
+}
+
+.app-dark .official-process-sheet .text-slate-600,
+.app-dark .official-process-sheet .text-gray-600 {
+  color: #475569 !important;
+}
+
+.app-dark .official-process-sheet .text-slate-500,
+.app-dark .official-process-sheet .text-gray-500,
+.app-dark .official-process-sheet .text-\[\#64748B\] {
+  color: #64748b !important;
+}
+
+.app-dark .official-process-sheet .text-slate-400,
+.app-dark .official-process-sheet .text-gray-400 {
+  color: #94a3b8 !important;
+}
+
+.app-dark .official-process-sheet .text-emerald-700,
+.app-dark .official-process-sheet .text-emerald-800 {
+  color: #047857 !important;
+}
+
+.app-dark .official-process-sheet .text-amber-700,
+.app-dark .official-process-sheet .text-amber-900 {
+  color: #92400e !important;
+}
+
+.app-dark .official-process-sheet .border,
+.app-dark .official-process-sheet .border-b,
+.app-dark .official-process-sheet .border-t,
+.app-dark .official-process-sheet .border-slate-200,
+.app-dark .official-process-sheet .border-slate-300,
+.app-dark .official-process-sheet .border-\[\#D9E2EC\] {
+  border-color: #cbd5e1 !important;
+}
